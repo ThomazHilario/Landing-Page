@@ -19,6 +19,7 @@ img#logo{
 }
 main{
     display: flex;
+    justify-content: space-around;
 }
 /* article */
 article{
@@ -26,14 +27,14 @@ article{
     height: 430px;
 }
 img#mockup{
-    max-height: 367px;
-    max-width: 600px;
+    max-height: 45vw;
+    max-width: 45vw;
     padding: 30px;
     margin-left: 40px;
 }
 /* aside */
 aside{
-    margin-left: 40px;
+    margin-right: 40px;
     width: 500px;
 }
 aside > h1{
