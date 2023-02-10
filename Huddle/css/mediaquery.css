@@ -6,8 +6,9 @@
         margin: 0;
     }
     main{
-        height: 800px;
+        height: 700px;
         display: block;
+        margin: auto;
     }
     article{
         width: 300px;
@@ -18,7 +19,7 @@
         margin-right: 40px;
         width: 300px;
         margin: auto;
-        margin-top: 80px;
+        margin-top: 100px;
     }
     img#mockup{
         height:50vh;
