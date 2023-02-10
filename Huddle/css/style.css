@@ -27,8 +27,8 @@ article{
     height: 430px;
 }
 img#mockup{
-    max-height: 45vw;
-    max-width: 45vw;
+    height: 45vh;
+    width: 45vw;
     padding: 30px;
     margin-left: 40px;
 }
