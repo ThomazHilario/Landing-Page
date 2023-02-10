@@ -8,16 +8,18 @@
     article{
         width: 300px;
         height: 400px;
+        margin: auto;
     }
     aside{
         margin-right: 40px;
         width: 300px;
+        margin: auto;
     }
     img#mockup{
-        height:50vh;
-        width: 60vw;
-        padding: 30px;
-        margin-left: 40px;
+        height:65vh;
+        width: 65vw;
+        padding: 0px;
+        margin: auto;
     }
     aside > h1{
         margin-top: 10px;
