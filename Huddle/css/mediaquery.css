@@ -5,6 +5,12 @@
         padding: 0;
         margin: 0;
     }
+    body{
+        background-image: url("../imagens/bg-mobile.svg");
+        background-size: cover;
+        background-position: center center;
+        height: 900px;
+    }
     main{
         height: 700px;
         display: block;
@@ -37,10 +43,11 @@
         width: 250px;
         color: rgb(255, 253, 253);
         padding-left: 25px;
-        font-size: 10px;
+        font-size: 12px;
         font-family: 'Open Sans', sans-serif;
         font-weight: bold;
         text-align: justify;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.342);
         margin: auto;
     }
     #button{
@@ -69,5 +76,42 @@
     footer{
         display: flex;
         justify-content: center;
+    }
+}
+/* ipads,tablets */
+@media screen and (min-width:481px) and (max-width:768px) {
+    main{
+        display: block;
+    }
+    article{
+        margin: auto;
+    }
+    img#mockup{
+        width: 73vw;
+    }
+    aside{
+        margin: auto;
+        margin-top: 30px;
+        width: 450px;
+    }
+    aside > h1{
+        font-size: 20px;
+        text-align: center ;
+    }
+    aside > P{
+        font-size: 15px;
+        width: 400px;
+    }
+    #button{
+        height: 50px;
+        width: 50px;
+        margin-left: 120px;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+    }
+    footer > #icon > a > img{
+        float: none;
     }
 }
