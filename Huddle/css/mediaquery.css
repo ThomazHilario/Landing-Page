@@ -115,3 +115,19 @@
         float: none;
     }
 }
+@media screen and (min-width:769px) and (max-width:1024px) {
+    aside > h1{
+        font-size: 24px;
+    }
+    aside > p{
+        font-size: 14px;
+    }
+}
+@media screen and (min-width:1025px) and (max-width:1200px) {
+    aside > h1{
+        font-size: 27px;
+    }
+    aside > p{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
