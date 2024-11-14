@@ -1,0 +1,23 @@
+/* Header */
+.header{
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Header content */
+.headerContent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+}
+
+/* Navigation */
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
