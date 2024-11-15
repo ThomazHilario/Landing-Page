@@ -1,4 +1,8 @@
-import logo from '../../../../public/logo.svg'
+// Next
+import Image from 'next/image'
+
+// Images
+import logo from '../../../../public/logo.png'
 
 // Css
 import style from './header.module.css'
@@ -8,7 +12,7 @@ export const Header = () => {
         <header className={style.header}>
             <div className={style.headerContent}>
                 {/* Logo */}
-                <img src={logo} alt='Logo do site figmaland'/>
+                <Image src={logo} alt='Logo do site' objectFit='cover'/>
 
                 {/* Navigation */}
                 <nav>
@@ -21,7 +25,7 @@ export const Header = () => {
                 </nav>
 
                 {/* Button login */}
-                <button>Login</button>
+                <button className={style.buttonLogin}>Login</button>
             </div>
         </header>
     )

@@ -1,0 +1,54 @@
+/* Introduction */
+.introduction{
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+
+    /* Title */
+    .title{
+        font-size: 3rem;
+        text-align: center;
+        font-weight: lighter;
+
+        @media screen and (min-width:540px){
+            font-weight: bold;
+        }
+    }
+
+    /* Description */
+    .description{
+        font-size: 1rem;
+        max-width: 80%;
+        text-align: center;
+
+        @media screen and (min-width:550px){
+            width: 446px;
+        }
+    }
+}
+
+
+.containerButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    /* Container buttons */
+    .buttonFromContainer{
+        padding: 1rem 1.5rem;
+    }
+
+    /* First button from container */
+    .buttonFromContainer:nth-child(1){
+        background-color: #4452FE;
+    }
+
+    /* Last button from container */
+    .buttonFromContainer:nth-child(2){
+        border: 1px solid white;
+    }
+}
