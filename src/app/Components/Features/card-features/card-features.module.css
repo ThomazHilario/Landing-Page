@@ -1,0 +1,27 @@
+.cardFeaturesContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 200px;
+
+    /* Header card features */
+    .headerCardFeatures{
+        display: flex;
+        gap: 0.5rem;
+
+        /* Title */
+        .title{
+            font-weight: bold;
+        }
+    }
+
+    /* Text */
+    .textCardFeatures{
+        text-align: start;
+        font-size: 1rem;
+        
+        @media screen and (min-width:768px){
+            width: 100%;
+        }
+    }
+}

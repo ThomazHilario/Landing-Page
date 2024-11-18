@@ -1,5 +1,7 @@
 // Components
 import { Banner } from './Components/Banner';
+import { SectionContainer } from './Components/SectionContainer';
+import { Features } from './Components/Features';
 
 // Css
 import style from './home.module.css'
@@ -26,10 +28,18 @@ export default function Home() {
           <button className={style.buttonFromContainer}>Learn More</button>
         </section>
 
-      </section>
-
         {/* Banner */}
         <Banner/>
+      </section>
+
+      {/* Features */}
+      <SectionContainer 
+        title='Features' 
+        text='Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.'
+      >
+        
+        <Features/>
+      </SectionContainer>
     </section>
   );
 }
