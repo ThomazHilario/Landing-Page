@@ -12,7 +12,7 @@ export const Header = () => {
         <header className={style.header}>
             <div className={style.headerContent}>
                 {/* Logo */}
-                <Image src={logo} alt='Logo do site' objectFit='cover'/>
+                <Image src={logo} alt='Logo do site'/>
 
                 {/* Navigation */}
                 <nav>

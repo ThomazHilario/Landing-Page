@@ -1,3 +1,6 @@
+// Components
+import { Banner } from './Components/Banner';
+
 // Css
 import style from './home.module.css'
 
@@ -22,7 +25,11 @@ export default function Home() {
           <button className={style.buttonFromContainer}>Try For Free</button>
           <button className={style.buttonFromContainer}>Learn More</button>
         </section>
+
       </section>
+
+        {/* Banner */}
+        <Banner/>
     </section>
   );
 }
