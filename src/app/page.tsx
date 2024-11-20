@@ -2,9 +2,11 @@
 import { Banner } from './Components/Banner';
 import { SectionContainer } from './Components/SectionContainer';
 import { Features } from './Components/Features';
+import { Contents } from './Components/Contents';
 
 // Css
 import style from './home.module.css'
+
 
 export default function Home() {
   return (
@@ -39,6 +41,15 @@ export default function Home() {
       >
         
         <Features/>
+      </SectionContainer>
+
+      {/* Contacts */}
+      <SectionContainer
+        title='Contents'
+        text={`We focus on ergonomics and meeting you where you work. It's only a keystroke away.`}
+      >
+
+        <Contents/>
       </SectionContainer>
     </section>
   );

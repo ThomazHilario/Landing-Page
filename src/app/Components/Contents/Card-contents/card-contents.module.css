@@ -1,0 +1,46 @@
+.cardContents{
+    height: 40rem;
+    width: 476px;
+    max-width: 476px;
+    padding: 2rem 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    border-radius: 5px;
+
+    /* Title */
+    .cardTitle{
+        background-color: transparent;
+        font-weight: 500;
+        color: black;
+    }
+
+    /* Description */
+    .cardDescription{
+        background-color: transparent;
+        text-align: center;
+        width: 268px;
+        font-weight: 400;
+        font-size: 1.1rem;
+        color: gray;
+    }
+
+    /* Button */
+    .cardButton{
+        background-color: #4452FE;
+        color: white;
+        height: 52px;
+        width: 157px;
+    }
+
+    /* Image */
+    .imageCard{
+        width:299px;
+        height: 196px;
+        object-fit: cover;
+        border-radius: 1.5rem;
+    }
+}
