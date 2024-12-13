@@ -1,0 +1,36 @@
+.gallery__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 2rem;   
+
+    /* Gallery Image */
+    .gallery__images__container{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+    
+        /* Image */
+        .img{
+            object-fit: cover;
+            border-radius: 10px;
+    
+            /* Image five position */
+            &:nth-child(5){
+                width: 90%;
+                max-width: 395px;
+            }
+    
+            /* Image seven position */
+            &:nth-child(7){
+                width: 90%;
+                max-width: 395px;
+            }
+        }
+    }
+}
