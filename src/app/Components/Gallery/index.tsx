@@ -10,6 +10,9 @@ import img5 from '../../../../public/gallery_images/Rectangle-5.png'
 import img6 from '../../../../public/gallery_images/Rectangle-6.png'
 import img7 from '../../../../public/gallery_images/Rectangle-7.png'
 
+// Components 
+import { Button } from "../Button"
+
 // Css
 import style from './gallery.module.css'
 
@@ -76,7 +79,7 @@ export const Gallery = () => {
                 ))}
             </section>
 
-            <button>See More</button>
+            <Button>See More</Button>
         </section>
     )
 }

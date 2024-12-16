@@ -4,9 +4,11 @@ import { SectionContainer } from './Components/SectionContainer';
 import { Features } from './Components/Features';
 import { Contents } from './Components/Contents';
 import { Gallery } from './Components/Gallery';
+import { Partners } from './Components/Partners';
 
 // Css
 import style from './home.module.css'
+
 
 
 export default function Home() {
@@ -59,6 +61,14 @@ export default function Home() {
         text={`We focus on ergonomics and meeting you where you work. It's only a keystroke away.`}
       >
         <Gallery/>
+      </SectionContainer>
+
+      {/* Partners */}
+      <SectionContainer
+        title='Partners'
+        text={`We focus on ergonomics and meeting you where you work. It's only a keystroke away.`}
+      >
+        <Partners/>
       </SectionContainer>
     </section>
   );
