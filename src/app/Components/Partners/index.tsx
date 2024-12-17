@@ -52,8 +52,13 @@ export const Partners = () => {
         <section className={style.partnersContainer}>
             
             <section className={style.contentPartners}>
-                {partnersImages.length > 0 && partnersImages.map(image => (
-                    <Image src={image.svg} width={image.width} height={image.height} alt='logos das partners'/>
+                {partnersImages.length > 0 && partnersImages.map((image, index) => (
+                    <Image 
+                        key={index} 
+                        src={image.svg} 
+                        alt='logos das partners'
+                        priority={false}
+                    />
                 ))}
             </section>
 
