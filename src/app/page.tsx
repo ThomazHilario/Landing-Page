@@ -8,6 +8,7 @@ import { Partners } from './Components/Partners';
 
 // Css
 import style from './home.module.css'
+import { Testimonials } from './Components/Testimonials';
 
 
 
@@ -69,6 +70,12 @@ export default function Home() {
         text={`We focus on ergonomics and meeting you where you work. It's only a keystroke away.`}
       >
         <Partners/>
+      </SectionContainer>
+
+      <SectionContainer
+        title='Testimonials'
+      >
+        <Testimonials/>
       </SectionContainer>
     </section>
   );

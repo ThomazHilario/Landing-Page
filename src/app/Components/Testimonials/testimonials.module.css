@@ -1,0 +1,10 @@
+.testimonials__container{
+    display: grid;
+    justify-content: center;
+    gap: 2rem;
+
+    /* Media Query - min width 1024px */
+    @media screen and (min-width:1024px){
+        grid-template-columns: repeat(2, 428px);
+    }
+}

@@ -4,7 +4,7 @@ import { ReactNode } from "react"
 // Interface
 interface SectionContainerProps{
     title:string,
-    text:string,
+    text?:string,
     children:ReactNode
 }
 
