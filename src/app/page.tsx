@@ -9,6 +9,7 @@ import { Partners } from './Components/Partners';
 // Css
 import style from './home.module.css'
 import { Testimonials } from './Components/Testimonials';
+import { Content } from './Components/Content';
 
 
 
@@ -77,6 +78,9 @@ export default function Home() {
       >
         <Testimonials/>
       </SectionContainer>
+      
+      {/* Contents */}
+      <Content/>
     </section>
   );
 }

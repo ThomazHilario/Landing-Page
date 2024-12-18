@@ -1,0 +1,45 @@
+.content__container{
+    margin: auto;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 370px;
+    max-width: 1219px;
+    background-color: #343434;
+    border-radius: 2rem;
+
+    .introduction__section{
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        background-color: transparent;
+
+        /* Title */
+        .content__title{
+            text-align: justify;
+            max-width: 350px;
+            background-color: #343434;
+            font-size: 2.5rem;
+        }
+
+        /* Try for free button */
+        .btn__try__for__free{
+            height: 52px;
+            width: 232px;
+            background-color: #4452FE;
+        }
+    }
+
+    .container__figure{
+        background-color: transparent;
+    
+        
+        .imageContent{
+            height: 250px;
+            max-width: 400px;
+            border-radius: 1rem;
+        }
+    }
+}
