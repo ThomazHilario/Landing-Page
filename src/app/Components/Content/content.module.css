@@ -10,6 +10,7 @@
     background-color: #343434;
     border-radius: 2rem;
 
+    /* Section introduction */
     .introduction__section{
         display: flex;
         flex-direction: column;
@@ -32,6 +33,7 @@
         }
     }
 
+    /* Container figure */
     .container__figure{
         background-color: transparent;
     
