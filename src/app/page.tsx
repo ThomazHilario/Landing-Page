@@ -10,6 +10,7 @@ import { Partners } from './Components/Partners';
 import style from './home.module.css'
 import { Testimonials } from './Components/Testimonials';
 import { Content } from './Components/Content';
+import { Footer } from './Components/Footer';
 
 
 
@@ -81,6 +82,9 @@ export default function Home() {
       
       {/* Contents */}
       <Content/>
+
+      {/* Footer */}
+      <Footer/>
     </section>
   );
 }

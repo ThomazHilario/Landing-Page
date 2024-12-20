@@ -1,0 +1,25 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+
+    .navigation_footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 3rem;
+        .nav__list{
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+
+            /* Title */
+            .nav__list__item:nth-child(1){
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}
