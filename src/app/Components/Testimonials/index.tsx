@@ -39,6 +39,7 @@ export const Testimonials = () => {
         <section className={style.testimonials__container}>
             {testimonials.length > 0 && testimonials.map((testimonial, index) => (
                 <TestimonialsCard
+                    key={index}
                     image={testimonial.image}
                     name={testimonial.name}
                     description={testimonial.description}
