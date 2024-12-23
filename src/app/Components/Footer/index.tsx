@@ -1,3 +1,6 @@
+// Components
+import { SocialMedias } from './Social-medias'
+
 // Css
 import style from './footer.module.css'
 
@@ -43,9 +46,7 @@ export const Footer = () => {
             </nav>
 
             {/* Contacts */}
-            <section>
-                
-            </section>
+            <SocialMedias/>
         </footer>
     )
 }

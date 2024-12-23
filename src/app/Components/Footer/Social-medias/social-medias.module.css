@@ -1,0 +1,14 @@
+.social__medias__container{
+    /* Contacts */
+    .contacts__container{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        list-style: none;
+        .contacts{
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+    }
+}
